@@ -1,0 +1,29 @@
+{
+  "name": "wxj-back",
+  "version": "1.0.0",
+  "description": "server.js  express index.json  json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env PORT=7000 babel-node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "body-parser": "^1.19.2",
+    "cross-env": "^7.0.3",
+    "fs-extra": "^10.0.1",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "multiparty": "^4.2.3"
+  }
+}

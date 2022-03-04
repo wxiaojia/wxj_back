@@ -1,0 +1,11 @@
+{
+  "user": [
+    {
+      "id": 1000,
+      "account": "wxj",
+      "college": "金并即总变史12",
+      "pwd": "123",
+      "roles": ["admin"]
+    }
+  ]
+}
